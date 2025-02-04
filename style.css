@@ -1,27 +1,38 @@
 body {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(224, 224, 224);
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-.index-h1 {
+h1, h2, h3, h4 {
     background-color: lightblue;
     padding: 15px;
-    margin: 0px;
 }
 
-li {
+ul, ol {
+    background-color: white;
+    padding: 12px;
+    padding-left: 25px;
+}
+
+.recipes-links li {
     margin-top: 10px;
+}
+
+.recipes-links li a {
+    padding: 12px;
 }
 
 a {
     text-decoration: none;
     color: black;
     font-weight: 800;
-    padding: 12px;
 }
 
 a:hover {
     color: lightblue;
     font-weight: 400;
-    padding: 16px;
+}
+
+footer {
+    padding-bottom: 15px;
 }
